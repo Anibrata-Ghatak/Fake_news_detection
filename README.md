@@ -125,48 +125,7 @@ def fake_news(news):
 # Example input
 news_text = "Government announces new tax policies for 2025."
 result = fake_news(news_text)
+
 print("Prediction:", result)
-🌍 Deploying to the Internet
-Option 1: Using Ngrok (Temporary Public Link)
-bash
-Copy
-Edit
-ngrok http 5000
-Copy the generated public URL and share it.
-
-Option 2: Deploying to PythonAnywhere
-Create a free account at https://www.pythonanywhere.com.
-
-Upload your project files.
-
-Configure the Flask app as a web application.
-
-Start the app & access it online.
-
-Option 3: Deploying on Render
-Push your code to GitHub.
-
-Create a free account at https://render.com.
-
-Connect GitHub → Deploy a new Web Service.
-
-Set Python as the runtime and specify app.py as the entry point.
-
-📈 Model Performance
-We evaluated the model on the test dataset:
-
-Metric	Score
-Accuracy	94.5%
-Precision	92.3%
-Recall	91.7%
-🔹 Accuracy = How many predictions were correct
-🔹 Precision = Correct Fake News predictions out of all Fake News predictions
-🔹 Recall = How well it detects Fake News
-
-💡 Future Improvements
-🔹 Upgrade the model to Deep Learning (LSTM, BERT)
-🔹 Improve dataset quality (include more sources)
-🔹 Enhance UI with Bootstrap/React
-🔹 Add multilingual support for non-English news
 
 
