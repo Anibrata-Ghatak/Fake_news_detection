@@ -1,7 +1,9 @@
 📰 Fake News Detection Using NLP & Flask
 
-Overview of the Fake News Detection Project
-Introduction
+Overview of the Fake News Detection Project:
+
+Introduction:
+
 Fake news has become a significant challenge in the modern digital landscape. With the rapid expansion of the internet and social media platforms, the dissemination of misinformation and fake news has increased exponentially. The presence of fabricated stories, misleading content, and deceptive news articles can influence public perception, manipulate opinions, and even affect elections and global events.
 
 The Fake News Detection System is an AI-powered solution designed to address this problem. This project employs Natural Language Processing (NLP) and Machine Learning (ML) to classify news articles as either real or fake based on their textual content. By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) vectorization and a Naïve Bayes classifier, the model can accurately distinguish between trustworthy and fabricated news articles.
